@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  
+  double no[5]; 
+  double sum; 
+  double avg; 
+ 
+  cout << "Enter five numbers: ";
+  for (int i = 0; i  < 5; ++i)
+  {
+    cin >> no[i];
+  }
+
+  sum = 0;
+  for (int i  = 0; i  < 5; ++i )
+  {
+    sum += no[i];
+  }
+ 
+ 
+  avg = sum/5;
+  
+  
+  cout << "Sum = " << sum << endl;
+  cout << "Average = " << avg << endl;
+ 
+  return 0;
+}
